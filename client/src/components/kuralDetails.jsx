@@ -12,7 +12,7 @@ function KuralDetails(props) {
   useEffect(() => {
     async function fetchKural() {
       try {
-        const response = await fetch(`http://localhost:3000/kural?no=${kuralNo}`);
+        const response = await fetch(`https://mern-kural-service.onrender.com/kural?no=${kuralNo}`);
         const data = await response.json();
         setKural(data);
       } catch (error) {
