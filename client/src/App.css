@@ -1,0 +1,27 @@
+body {
+    background-color: #2b2a33;
+}
+
+.kural {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.kural-sub1 {
+    font-size: 1.2rem;
+    background-color: #42414d;
+    padding: 2%;
+    border-radius: 1rem;
+    color: white;
+    width: 60%;
+}
+
+@media (max-width: 768px) {
+    .kural-sub1 {
+        width: 98%; /* Adjust width for smaller screens */
+        font-size: 0.22rem;
+    }
+}
